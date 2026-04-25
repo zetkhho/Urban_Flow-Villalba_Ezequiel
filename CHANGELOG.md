@@ -31,7 +31,7 @@ Ejercicio 03
 - Eliminación de filas sin infracción.
 - Guardado del dataset limpio en (urban_flow/data/interim/speeding_fines.csv).
 
-## Día 4 (24/04/2026)  
+## Día 4 (24/04/2026)
 Ejercicio 4
 - Se creó la clase FineAnalyzer.
 - Se encapsuló el DataFrame limpio dentro del objeto.
@@ -51,3 +51,12 @@ Ejercicio 5
   - date.jpg
 - Se trabajó sobre los datos limpios guardados en urban_flow/data/interim/speeding_fines.csv.
 - Se ajustó el gráfico de torta para representar mejor el porcentaje de infracciones por hora agrupadas.
+
+## Día 6 (25/04/2026) 
+Ejercicio 06
+- Se calculó el porcentaje de infracciones ocurridas en la fecha 1932-01-01.
+- Se calculó el porcentaje de infracciones ocurridas a la hora 00:00.
+
+Ejercicio 07
+- Se redactó la conclusión final sobre los datos del dataset.
+- Se incorporó la conclusión en el README.md.
