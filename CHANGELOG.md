@@ -42,3 +42,12 @@ Ejercicio 4
 - Se contabilizaron las multas por ubicación.
 - Se creó el objeto analizador y se probaron sus métodos.
 
+Ejercicio 5
+- Se generaron y exportaron los gráficos solicitados del ejercicio 5:
+  - fines.jpg
+  - hours.jpg
+  - months.jpg
+  - hour.jpg
+  - date.jpg
+- Se trabajó sobre los datos limpios guardados en urban_flow/data/interim/speeding_fines.csv.
+- Se ajustó el gráfico de torta para representar mejor el porcentaje de infracciones por hora agrupadas.
