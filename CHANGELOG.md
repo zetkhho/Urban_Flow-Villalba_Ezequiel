@@ -52,7 +52,7 @@ Ejercicio 5
 - Se trabajó sobre los datos limpios guardados en urban_flow/data/interim/speeding_fines.csv.
 - Se ajustó el gráfico de torta para representar mejor el porcentaje de infracciones por hora agrupadas.
 
-## Día 6 (25/04/2026) 
+## Día 6 (25/04/2026)
 Ejercicio 06
 - Se calculó el porcentaje de infracciones ocurridas en la fecha 1932-01-01.
 - Se calculó el porcentaje de infracciones ocurridas a la hora 00:00.
@@ -60,3 +60,10 @@ Ejercicio 06
 Ejercicio 07
 - Se redactó la conclusión final sobre los datos del dataset.
 - Se incorporó la conclusión en el README.md.
+
+## Día 7 - Correcciones TP1 según devolución docente
+
+- Se corrigieron los gráficos de líneas del Ejercicio 05 usando agrupación con groupby y promedio.
+- Se dejó de graficar cada registro individual por índice secuencial.
+- Se agregaron type hints a la clase FineAnalyzer y a sus métodos.
+- Se mantuvo la estructura del Sprint_1 como base para iniciar luego el Sprint_2.
