@@ -87,3 +87,24 @@ Ejercicio 07
 - Se guardó el archivo group_images.json en urban_flow/data/interim/.
 - Se implementó una función reutilizable para visualizar imágenes aleatorias.
 - Se mostraron 8 imágenes aleatorias en formato 4x2.
+
+
+## Día 9 - Sprint_2
+
+### Ejercicio 03
+- Se convirtieron las imágenes originales a escala de grises.
+- Se guardaron las imágenes procesadas en `urban_flow/data/interim/imgs/03_01_gray_scale/`.
+- Se aplicó suavizado mediante blur.
+- Se guardaron las imágenes suavizadas en `urban_flow/data/interim/imgs/03_02_blur/`.
+- Se aplicó detección de bordes con Canny.
+- Se guardaron las imágenes con bordes en `urban_flow/data/interim/imgs/03_03_canny/`.
+- Se reutilizó la función de visualización aleatoria para validar las imágenes procesadas.
+
+### Ejercicio 04
+- Se utilizó EasyOCR para extraer texto de las imágenes.
+- Se limpiaron las patentes detectadas dejando solo letras y números.
+- Se almacenaron las patentes detectadas en la clave `patent` del diccionario `group_images`.
+- Se compararon las patentes detectadas contra el dataset `speeding_fines.csv`.
+- Se calculó el porcentaje de coincidencia mediante ratio.
+- Se aceptaron coincidencias con 80% o más.
+- Se generó el dataframe final con las columnas `imagen`, `patente_imagen` y `ratio`.
