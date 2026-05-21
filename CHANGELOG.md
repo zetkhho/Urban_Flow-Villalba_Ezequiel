@@ -67,3 +67,23 @@ Ejercicio 07
 - Se dejó de graficar cada registro individual por índice secuencial.
 - Se agregaron type hints a la clase FineAnalyzer y a sus métodos.
 - Se mantuvo la estructura del Sprint_1 como base para iniciar luego el Sprint_2.
+
+## Día 8 - Inicio Sprint_2
+
+### Ejercicio 01
+- Se configuró el repositorio para trabajar sobre la rama Sprint_2.
+- Se clonó el repositorio del TP1 partiendo desde Sprint_1.
+- Se descargó el dataset de imágenes urban_flow_plates.zip.
+- Se descomprimieron las imágenes en urban_flow/data/raw/imgs.
+- Se validó que el dataset contiene 110 imágenes reales.
+
+
+### Ejercicio 02
+- Se listaron las imágenes disponibles mostrando nombre y tamaño en KB.
+- Se clasificaron las imágenes en los grupos 'plates' y 'completes'.
+- Se calcularon dimensiones y área de cada imagen utilizando OpenCV.
+- Se creó el diccionario group_images con metadata de imágenes.
+- Se calculó la resolución promedio por grupo.
+- Se guardó el archivo group_images.json en urban_flow/data/interim/.
+- Se implementó una función reutilizable para visualizar imágenes aleatorias.
+- Se mostraron 8 imágenes aleatorias en formato 4x2.
