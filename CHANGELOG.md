@@ -108,3 +108,19 @@ Ejercicio 07
 - Se calculó el porcentaje de coincidencia mediante ratio.
 - Se aceptaron coincidencias con 80% o más.
 - Se generó el dataframe final con las columnas `imagen`, `patente_imagen` y `ratio`.
+
+
+## Día 10 - Sprint_2
+
+### Ejercicio 05
+- Se calcularon métricas del dataset final relacionado con imágenes.
+- Se contabilizaron multas con y sin imágenes asociadas.
+- Se identificaron imágenes sin match con el dataset de multas.
+- Se calcularon multas pendientes considerando estados IMPAGA y APELADA.
+- Se calcularon multas pendientes con imágenes relacionadas.
+
+### Ejercicio 06
+- Se redactó la conclusión final del Sprint_2 sobre la relación entre imágenes y datos.
+- Se documentó el uso de OCR para extraer patentes desde imágenes.
+- Se incorporó la exploración extra con procesamiento morfológico, contornos y filtrado geométrico.
+- Se creó el archivo README_Sprint_2.md con objetivos, procesamiento, resultados y conclusión.
