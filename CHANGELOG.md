@@ -124,3 +124,21 @@ Ejercicio 07
 - Se documentó el uso de OCR para extraer patentes desde imágenes.
 - Se incorporó la exploración extra con procesamiento morfológico, contornos y filtrado geométrico.
 - Se creó el archivo README_Sprint_2.md con objetivos, procesamiento, resultados y conclusión.
+
+
+## Día 1 - Inicio Sprint_3
+
+### Ejercicio 01
+- Se configuró el repositorio para trabajar sobre la rama Sprint_3.
+- Se clonó el repositorio partiendo desde Sprint_2.
+- Se verificó el acceso a los datasets generados en los sprints anteriores.
+- Se restauraron las imágenes originales necesarias para continuar el trabajo.
+
+### Ejercicio 02
+- Se instaló e inicializó DVC.
+- Se creó el directorio /content/remote_dvc como remote local simulado.
+- Se configuró el remote local de DVC.
+- Se migraron las imágenes originales a DVC.
+- Se migraron las imágenes procesadas a DVC.
+- Se ejecutó dvc push hacia el remote local.
+- Se verificó el estado de Git y DVC.
