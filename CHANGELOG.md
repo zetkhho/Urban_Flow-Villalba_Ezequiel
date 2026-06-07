@@ -142,3 +142,31 @@ Ejercicio 07
 - Se migraron las imágenes procesadas a DVC.
 - Se ejecutó dvc push hacia el remote local.
 - Se verificó el estado de Git y DVC.
+
+
+### Sprint_3
+
+#### Ejercicio 03
+- Se diseñó el modelo lógico del sistema de multas.
+- Se definieron las entidades Vehiculo, Multa, Radar y Evidencia.
+- Se establecieron las relaciones entre entidades.
+- Se documentó el modelo lógico y sus cardinalidades.
+
+#### Ejercicio 04
+- Se implementó la función procesar_fila_csv.
+- Se realizó el mapeo de filas del CSV hacia objetos del modelo lógico.
+- Se validó la función utilizando registros reales del dataset.
+
+#### Ejercicio 05
+- Se diseñó el modelo relacional utilizando SQLAlchemy ORM.
+- Se definieron claves primarias y relaciones entre tablas.
+- Se implementó el método __repr__ en todos los modelos.
+- Se validó el comportamiento de los modelos relacionales.
+
+#### Ejercicio 06
+- Se creó la base de datos SQLite transito.db.
+- Se generaron automáticamente las tablas mediante SQLAlchemy.
+- Se migraron los datos desde speeding_fines_image.csv.
+- Se validó la cantidad de registros insertados.
+- Se verificó la consistencia entre el CSV y la base de datos.
+
