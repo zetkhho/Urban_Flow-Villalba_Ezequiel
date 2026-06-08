@@ -126,24 +126,6 @@ Ejercicio 07
 - Se creó el archivo README_Sprint_2.md con objetivos, procesamiento, resultados y conclusión.
 
 
-## Día 1 - Inicio Sprint_3
-
-### Ejercicio 01
-- Se configuró el repositorio para trabajar sobre la rama Sprint_3.
-- Se clonó el repositorio partiendo desde Sprint_2.
-- Se verificó el acceso a los datasets generados en los sprints anteriores.
-- Se restauraron las imágenes originales necesarias para continuar el trabajo.
-
-### Ejercicio 02
-- Se instaló e inicializó DVC.
-- Se creó el directorio /content/remote_dvc como remote local simulado.
-- Se configuró el remote local de DVC.
-- Se migraron las imágenes originales a DVC.
-- Se migraron las imágenes procesadas a DVC.
-- Se ejecutó dvc push hacia el remote local.
-- Se verificó el estado de Git y DVC.
-
-
 ### Sprint_3
 
 #### Ejercicio 03
@@ -169,4 +151,33 @@ Ejercicio 07
 - Se migraron los datos desde speeding_fines_image.csv.
 - Se validó la cantidad de registros insertados.
 - Se verificó la consistencia entre el CSV y la base de datos.
+
+
+
+## Sprint 3 - Ejercicios 07, 08, 09 y 10
+
+### Ejercicio 07
+- Se implementaron consultas sobre la base de datos relacional.
+- Se identificaron las 10 patentes con mayor cantidad de multas.
+- Se consultaron las multas sin evidencia asociada.
+- Se obtuvieron los radares con mayor volumen de infracciones.
+- Se calcularon las patentes reincidentes dentro de un período determinado.
+- Se calculó el porcentaje de multas confirmadas visualmente.
+
+### Ejercicio 08
+- Se creó la base de datos vectorial `patente_vectorial` con ChromaDB.
+- Se cargó el modelo OpenCLIP para transformar imágenes en vectores.
+- Se generaron embeddings de las imágenes asociadas a las multas.
+- Se almacenaron los vectores junto con metadatos de patente, multa e imagen.
+
+### Ejercicio 09
+- Se implementó la función `buscar_patente_imagen`.
+- Se realizó búsqueda por similitud visual usando la base vectorial.
+- Se vinculó el resultado vectorial con la base relacional.
+- Se recuperaron los datos completos del vehículo y sus multas asociadas.
+- Se agregó validación visual mostrando la imagen consultada y el resultado obtenido.
+
+### Ejercicio 10
+- Se redactó la conclusión general del trabajo práctico.
+- Se documentó el objetivo, contexto, desarrollo y resultado final del Sprint 3.
 
